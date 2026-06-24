@@ -1,15 +1,15 @@
-plugins {
+﻿plugins {
     alias(libs.plugins.android.application)
     id("com.google.gms.google-services") // Apply the plugin here
     alias(libs.plugins.kotlin.android)
 }
 
 android {
-    namespace = "com.aliashraf.vocalcraft"
+    namespace = "com.muhammadaamirgulzar.vocalcraft"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.aliashraf.vocalcraft"
+        applicationId = "com.muhammadaamirgulzar.vocalcraft"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -71,3 +71,4 @@ dependencies {
 
 }
 apply(plugin = "com.google.gms.google-services")
+

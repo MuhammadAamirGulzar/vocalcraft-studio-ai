@@ -1,4 +1,4 @@
-package com.aliashraf.vocalcraft
+﻿package com.muhammadaamirgulzar.vocalcraft
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -110,7 +110,7 @@ class NERActivity : AppCompatActivity() {
 
                         generateViewsFromJson(value, nestedLayout)
                     } else {
-                        // ✅ Check for empty/null/blank value before adding views
+                        // âœ… Check for empty/null/blank value before adding views
                         if ((value == JSONObject.NULL) || (value is String && value.isBlank())) {
                             // Skip adding TextView and EditText
                             continue
@@ -429,3 +429,4 @@ class NERActivity : AppCompatActivity() {
         }
     }
 }
+

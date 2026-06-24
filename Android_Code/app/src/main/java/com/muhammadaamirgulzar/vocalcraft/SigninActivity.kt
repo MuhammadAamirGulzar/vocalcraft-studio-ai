@@ -1,4 +1,4 @@
-package com.aliashraf.vocalcraft
+﻿package com.muhammadaamirgulzar.vocalcraft
 
 import android.content.Intent
 import android.os.Bundle
@@ -124,3 +124,4 @@ class SignInActivity : AppCompatActivity() {
             })
     }
 }
+

@@ -1,4 +1,4 @@
-package com.aliashraf.vocalcraft
+﻿package com.muhammadaamirgulzar.vocalcraft
 
 import android.content.Intent
 import android.content.res.ColorStateList
@@ -424,3 +424,4 @@ class PromptActivity : AppCompatActivity() {
         }
     }
 }
+

@@ -1,4 +1,4 @@
-package com.aliashraf.vocalcraft
+﻿package com.muhammadaamirgulzar.vocalcraft
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import android.text.TextUtils
-import com.aliashraf.vocalcraft.R
+import com.muhammadaamirgulzar.vocalcraft.R
 
 class PromptsAdapter(
     private val prompts: List<Prompt>,
@@ -43,4 +43,5 @@ class PromptsAdapter(
         }
     }
 }
+
 

@@ -1,4 +1,4 @@
-package com.aliashraf.vocalcraft
+﻿package com.muhammadaamirgulzar.vocalcraft
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -75,3 +75,4 @@ class ProfileActivity : AppCompatActivity() {
         }
     }
 }
+

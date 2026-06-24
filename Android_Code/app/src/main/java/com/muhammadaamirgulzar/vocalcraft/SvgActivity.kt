@@ -1,4 +1,4 @@
-package com.aliashraf.vocalcraft
+﻿package com.muhammadaamirgulzar.vocalcraft
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -1130,7 +1130,7 @@ class SvgActivity : AppCompatActivity() {
                 activeEditText?.let { editText ->
                     val selectedFont = ResourcesCompat.getFont(this@SvgActivity, fontResources[position])
                     editText.typeface = selectedFont
-                    editText.setTag(R.id.font_position_tag, position)  // ✅ Save font index
+                    editText.setTag(R.id.font_position_tag, position)  // âœ… Save font index
                     editText.post { updateBoundingBox() }
                 }
             }

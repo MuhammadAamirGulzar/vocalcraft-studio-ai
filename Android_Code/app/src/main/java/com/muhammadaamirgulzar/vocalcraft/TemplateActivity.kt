@@ -1,4 +1,4 @@
-package com.aliashraf.vocalcraft
+﻿package com.muhammadaamirgulzar.vocalcraft
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -200,3 +200,4 @@ class TemplateActivity : AppCompatActivity() {
         }
     }
 }
+

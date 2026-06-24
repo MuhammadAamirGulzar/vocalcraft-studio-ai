@@ -1,4 +1,4 @@
-package com.aliashraf.vocalcraft
+﻿package com.muhammadaamirgulzar.vocalcraft
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -78,7 +78,7 @@ class ImageInsertActivity : AppCompatActivity() {
     private fun uploadAllImages() {
         val dropboxClient = DbxClientV2(DbxRequestConfig.newBuilder("VocalCraftApp").build(), dropboxAccessToken)
 
-        // ✅ Check if all captions are filled
+        // âœ… Check if all captions are filled
         for (i in imageList.indices) {
             if (imageList[i].caption.isBlank()) {
                 runOnUiThread {
@@ -89,7 +89,7 @@ class ImageInsertActivity : AppCompatActivity() {
                         Toast.makeText(this@ImageInsertActivity, "Please enter caption for image ${i + 1}", Toast.LENGTH_SHORT).show()
                     }
                 }
-                return // ✅ Stop upload until captions are filled
+                return // âœ… Stop upload until captions are filled
             }
         }
 
@@ -98,7 +98,7 @@ class ImageInsertActivity : AppCompatActivity() {
                 try {
                     val originalBitmap = MediaStore.Images.Media.getBitmap(contentResolver, item.uri)
 
-                    // ✅ Downscale the bitmap if needed
+                    // âœ… Downscale the bitmap if needed
                     val downscaledBitmap = downscaleBitmapIfNeeded(originalBitmap, 1000)
 
                     val stream = ByteArrayOutputStream()
@@ -135,7 +135,7 @@ class ImageInsertActivity : AppCompatActivity() {
                 }
             }
 
-            // ✅ Clear image list and update UI after all uploads
+            // âœ… Clear image list and update UI after all uploads
             withContext(Dispatchers.Main) {
                 imageList.clear()
                 adapter.notifyDataSetChanged()
@@ -149,7 +149,7 @@ class ImageInsertActivity : AppCompatActivity() {
         val width = bitmap.width
         val height = bitmap.height
 
-        if (width <= maxDimension && height <= maxDimension) return bitmap // ✅ No downscale needed
+        if (width <= maxDimension && height <= maxDimension) return bitmap // âœ… No downscale needed
 
         val scaleFactor = if (width > height) {
             maxDimension.toFloat() / width
@@ -196,3 +196,4 @@ class ImageInsertActivity : AppCompatActivity() {
         override fun getItemCount(): Int = images.size
     }
 }
+

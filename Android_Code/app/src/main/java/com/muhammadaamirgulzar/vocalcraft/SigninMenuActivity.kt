@@ -1,4 +1,4 @@
-package com.aliashraf.vocalcraft
+﻿package com.muhammadaamirgulzar.vocalcraft
 
 import android.content.Intent
 import android.graphics.Color
@@ -271,3 +271,4 @@ class SigninMenuActivity : AppCompatActivity() {
         floatingAnimator.cancel()
     }
 }
+

@@ -1,4 +1,4 @@
-package com.aliashraf.vocalcraft
+﻿package com.muhammadaamirgulzar.vocalcraft
 
 import android.Manifest
 import android.content.ContentValues
@@ -305,3 +305,4 @@ class ImageActivity : AppCompatActivity() {
     }
 
 }
+

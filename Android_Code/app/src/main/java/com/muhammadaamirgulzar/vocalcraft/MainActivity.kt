@@ -1,4 +1,4 @@
-package com.aliashraf.vocalcraft
+﻿package com.muhammadaamirgulzar.vocalcraft
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -26,3 +26,4 @@ class MainActivity : AppCompatActivity() {
         }, 1000) // Delay of 1 second (1000 milliseconds)
     }
 }
+

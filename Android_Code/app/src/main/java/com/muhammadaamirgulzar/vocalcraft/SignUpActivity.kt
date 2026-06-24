@@ -1,4 +1,4 @@
-package com.aliashraf.vocalcraft
+﻿package com.muhammadaamirgulzar.vocalcraft
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -192,3 +192,4 @@ class SignUpActivity : AppCompatActivity() {
 }
 
 data class User(val userId: String?, val name: String, val email: String)
+

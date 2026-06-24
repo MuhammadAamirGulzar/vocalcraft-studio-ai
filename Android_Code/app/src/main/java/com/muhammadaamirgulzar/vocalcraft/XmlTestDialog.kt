@@ -1,8 +1,8 @@
-package com.aliashraf.vocalcraft
+﻿package com.muhammadaamirgulzar.vocalcraft
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.aliashraf.vocalcraft.R
+import com.muhammadaamirgulzar.vocalcraft.R
 
 class XmlTestDialog : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -10,3 +10,4 @@ class XmlTestDialog : AppCompatActivity() {
         setContentView(R.layout.dialog_custom) // Set the layout XML
     }
 }
+
