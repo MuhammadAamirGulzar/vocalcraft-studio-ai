@@ -101,10 +101,7 @@ cd vocalcraft-studio-ai/Android_Code
 
 ## Licensing
 
-This repository is distributed under the PolyForm Noncommercial License 1.0.0.
-Commercial use is not permitted.
-
-See `LICENSE` and `NOTICE` for details.
+MIT — see [LICENSE](LICENSE).
 
 ## Maintainer
 
